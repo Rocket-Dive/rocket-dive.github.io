@@ -44,3 +44,9 @@ div img {
     filter: blur(0.5px);
     border-radius: 5px;
 }
+
+@media (pointer:none), (pointer:coarse) {
+    #rocket #blur{
+        display: none;
+    }
+}
