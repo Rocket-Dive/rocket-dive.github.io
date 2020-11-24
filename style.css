@@ -1,0 +1,23 @@
+body {
+    background: #2e3440;
+}
+
+h1 {
+    font-family: 'Comfortaa';
+    color: #eceff4;
+    font-size: 18px;
+    float: left;
+    clear: right;
+}
+
+h2 {
+    font-family: 'Comfortaa';
+    color: #eceff4;
+    font-size: 18px;
+    float: right;
+}
+
+hr{
+    color: #eceff4;
+    width: 100%;
+}
