@@ -34,19 +34,25 @@ hr{
     height: 400px;
 }
 
-div img {
+#rocket img {
     width: 50%;
     height: auto;
     position: absolute;
     top: 9%;
     left: 25%;
     z-index: 4;
-    filter: blur(0.5px);
     border-radius: 5px;
 }
 
 @media (pointer:none), (pointer:coarse) {
     #rocket #blur{
         display: none;
+    }
+
+    #rocket img{
+        width: 100%;
+        height: auto;
+        position: relative;
+        
     }
 }
